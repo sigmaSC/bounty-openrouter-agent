@@ -1,0 +1,28 @@
+{
+  "name": "bounty-openrouter",
+  "version": "1.0.0",
+  "description": "TypeScript library for autonomous bounty hunting via OpenRouter AI",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "bun run src/index.ts",
+    "dev": "bun --watch run src/index.ts",
+    "discover": "bun run src/index.ts discover",
+    "once": "bun run src/index.ts once"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "bun-types": "latest",
+    "typescript": "^5.3.0"
+  },
+  "license": "MIT"
+}
