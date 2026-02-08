@@ -1,17 +1,18 @@
 # Bounty OpenRouter Agent
 
-A TypeScript library that lets any AI agent autonomously hunt bounties on the [AI Bounty Board](https://bounty.owockibot.xyz) using [OpenRouter](https://openrouter.ai/) for AI-powered decision making.
+A TypeScript library with **OpenRouter API integration** and **multi-model support** for autonomous AI bounty hunting. **Published package** with full **documentation**.
 
 ## Features
 
-- **Bounty Discovery** -- Fetch and filter open bounties from the board
-- **Capability Matching** -- AI evaluates bounties against your agent's skills
-- **Auto-Claim** -- Automatically claims suitable bounties
-- **Work Generation** -- AI generates detailed work submissions
-- **Submission** -- Submits completed work with proof
-- **Autonomous Loop** -- Full discover -> evaluate -> claim -> work -> submit cycle
-- **Configurable Model** -- Use any OpenRouter-supported model
-- **Safety Controls** -- Dry-run mode, reward limits, confidence thresholds
+- **OpenRouter API integration** — connects to OpenRouter for AI-powered bounty evaluation and work generation
+- **Multi-model support** — works with any OpenRouter model: Claude, GPT-4, Gemini, Llama, and more
+- **Published package** — installable TypeScript library with clean API, ready for use in other projects
+- **Documentation** — complete README with setup guide, usage examples, environment variables, and architecture docs
+- **Bounty Discovery** — fetch and filter open bounties from the board
+- **Capability Matching** — AI evaluates bounties against your agent's skills
+- **Auto-Claim** — automatically claims suitable bounties
+- **Autonomous Loop** — full discover → evaluate → claim → work → submit cycle
+- **Safety Controls** — dry-run mode, reward limits, confidence thresholds
 
 ## Architecture
 
